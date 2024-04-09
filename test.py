@@ -8,7 +8,7 @@ ACCESS_TOKEN = "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"
 
 
 class OrdersEntity(BaseModel):
-    id:str
+    id:int
     total_price:str
 
 
